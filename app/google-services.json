@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "890730584330",
+    "firebase_url": "https://w-saver.firebaseio.com",
+    "project_id": "w-saver",
+    "storage_bucket": "w-saver.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890730584330:android:49d9b44c41248f936d82f3",
+        "android_client_info": {
+          "package_name": "com.poc.video_audio_sync"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890730584330-njq9mg4nj0qs9cmik8t02o2kuk5rchhb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn-JWiJsRF-SsJDBC-t5GJ9MOTYTgJwtM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "890730584330-njq9mg4nj0qs9cmik8t02o2kuk5rchhb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

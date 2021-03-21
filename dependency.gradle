@@ -1,0 +1,210 @@
+ext.versions = [
+        compile_sdk           : 30,
+        min_sdk               : 17,
+        target_sdk            : 30,
+        versionCode           : 1,
+        build_tools           : "26.0.2",
+        core_ktx              : "1.1.0-alpha05",
+        materialDesign        : "1.1.0-beta02",
+        coroutines            : "1.0.1",
+        rxjava                : "3.0.0",
+        rxandroid             : "3.0.0",
+        rxkotlin              : "3.0.1",
+        androidTestRunner     : "1.2.0-alpha04",
+        androidEspresso       : "3.2.0-alpha04",
+        junit                 : "4.12",
+        junit_ext             : "1.1.1",
+        versionName           : "1.0.0",
+        support_lib           : "1.0.0",
+        appcompat             : "1.2.0-beta01",
+        databinding           : "4.1.0-beta01",
+        daggerVersion         : "2.11",
+        gson                  : "2.8.5",
+        retrofit              : "2.9.0",
+        rxAdapter             : "2.9.0",
+        okhttp                : "3.9.1",
+        constraintLayout      : "1.1.2",
+        multi_dex             : "1.0.1",
+        firebase              : "17.3.0",
+        facebook_stetho       : "1.5.1",
+        sdp_android           : "1.0.6",
+        glide                 : "4.11.0",
+        anko_version          : "0.10.8",
+        expandablerecyclerview: "1.3",
+        smallbang             : "1.2.2", //Twitter like button effect Library
+        firebase_messaging    : "20.2.1",
+        firebase_core         : "17.1.0",
+        firebase_analytics    : "18.0.0",
+        firebase_config       : "20.0.2",
+        firebase_crashlytics  : "17.1.0",
+        firebase_database     : "19.6.0",
+        google_play_core      : "1.6.4",
+        lifecycle             : "2.2.0",
+        room                  : "2.3.0-alpha02",
+        joda_time             : "2.10",
+        joda_convert          : "2.1.1",
+        paging_runtime        : "2.1.0",
+        paging_rxjava2        : "3.0.0-beta01",
+        workManager           : "2.4.0",
+        viewpager2            : "1.0.0-beta04",
+        blurry_glide_transfor : "4.1.0",
+        c_t_layout_substitle  : "1.0.0",
+        glide_integeration    : "4.7.1",
+        jsoup                 : "1.11.3",
+        //richlinkpreview       : "1.0.9",
+        autostarter           : "1.0.6",
+        rxdownload            : "1.0.9",
+        support_design        : "28.0.0-alpha1",
+        phoneutil             : "8.3.1",
+        shimmer               : "0.4.0",
+        picasso               : "2.71828",
+        lottie                : "3.2.0",
+        exoplayer             : "2.10.5",
+        scale_image_view      : "3.10.0",
+        timber                : "4.5.1",
+        event_bus             : "3.2.0"
+]
+
+ext.commonDependencies = [
+        stdlib_jdk7       : "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version",
+        androidx          : "androidx.core:core-ktx:$versions.core_ktx",
+        appcompat         : "androidx.appcompat:appcompat:$versions.appcompat",
+        recyclerview      : "androidx.recyclerview:recyclerview:$versions.support_lib",
+        cardView          : "androidx.cardview:cardview:$versions.support_lib",
+        constraint_layout : "androidx.constraintlayout:constraintlayout:$versions.constraintLayout",
+        materialDesign    : "com.google.android.material:material:$versions.materialDesign",
+        coroutines_core   : "org.jetbrains.kotlinx:kotlinx-coroutines-android:$versions.coroutines",
+        coroutines_android: "org.jetbrains.kotlinx:kotlinx-coroutines-core:$versions.coroutines",
+        legacy_support    : "androidx.legacy:legacy-support-v4:$versions.support_lib",
+        lifecycle         : "androidx.lifecycle:lifecycle-extensions:$versions.lifecycle",
+        paging_runtime    : "androidx.paging:paging-runtime:$versions.paging_runtime",
+        paging_rxjava2    : "androidx.paging:paging-rxjava3:$versions.paging_rxjava2",
+        support_design    : "com.android.support:design:$versions.support_design",
+        event_bus         : "org.greenrobot:eventbus:$versions.event_bus"
+]
+
+ext.rxJavaDependencies = [
+        rxJava   : "io.reactivex.rxjava3:rxjava:$versions.rxjava",
+        rxKotlin : "io.reactivex.rxjava3:rxkotlin:$versions.rxkotlin",
+        rxAndroid: "io.reactivex.rxjava3:rxandroid:$versions.rxandroid"
+]
+
+ext.networkDependencies = [
+        retrofit2               : "com.squareup.retrofit2:retrofit:$versions.retrofit",
+        rxAdapter               : "com.squareup.retrofit2:adapter-rxjava3:$versions.rxAdapter",
+        retrofit2_gson_convertor: "com.squareup.retrofit2:converter-gson:$versions.retrofit",
+        okhttp3_squareup        : "com.squareup.okhttp3:okhttp:$versions.okhttp",
+        okhttp3_log_interceptor : "com.squareup.okhttp3:logging-interceptor:$versions.okhttp",
+]
+
+ext.rxDownloadDependencies = [
+        rxdownload_manager: "com.github.ssseasonnn.RxDownload:rxdownload4-manager:$versions.rxdownload"
+]
+
+ext.basicLibraries = [
+        gson_lib        : "com.google.code.gson:gson:$versions.gson",
+        multidex        : "com.android.support:multidex:$versions.multi_dex",
+        sdp_android     : "com.intuit.sdp:sdp-android:$versions.sdp_android",
+        timber          : "com.jakewharton.timber:timber:$versions.timber",
+        google_play_core: "com.google.android.play:core:$versions.google_play_core"
+]
+
+ext.fireBaseDependencies = [
+        firebase_messaging  : "com.google.firebase:firebase-messaging:$versions.firebase_messaging",
+        firebase_core       : "com.google.firebase:firebase-core:$versions.firebase_core",
+        firebase_analytics  : "com.google.firebase:firebase-analytics:$versions.firebase_analytics",
+        firebase_config     : "com.google.firebase:firebase-config:$versions.firebase_config",
+        firebase_crashlytics: "com.google.firebase:firebase-crashlytics:$versions.firebase_crashlytics",
+        firebase_database   : "com.google.firebase:firebase-database:$versions.firebase_database"
+]
+
+ext.roomDependencies = [
+        room_runtim: "androidx.room:room-runtime:$versions.room",
+        room_ktx   : "androidx.room:room-ktx:$versions.room",
+        room_rx    : "androidx.room:room-rxjava3:$versions.room",
+]
+
+ext.jodaTimeDependencies = [
+        joda_time   : "joda-time:joda-time:$versions.joda_time",
+        joda_convert: "org.joda:joda-convert:$versions.joda_convert",
+]
+
+ext.richLinkPreview = [
+        jsoup  : "org.jsoup:jsoup:$versions.jsoup",
+        picasso: "com.squareup.picasso:picasso:$versions.picasso"
+]
+
+ext.workManagerDependencies = [
+        workManager: "androidx.work:work-runtime-ktx:$versions.workManager",
+        rxWorker   : "androidx.work:work-rxjava3:$versions.workManager",
+]
+
+
+ext.glideDependencies = [
+        glide                 : "com.github.bumptech.glide:glide:$versions.glide",
+        blurry_glide_transform: "jp.wasabeef:glide-transformations:$versions.blurry_glide_transfor",
+        glide_integeration    : "com.github.bumptech.glide:okhttp3-integration:$versions.glide_integeration"
+]
+
+
+ext.libraries = [
+        gson_lib              : "com.google.code.gson:gson:$versions.gson",
+        multidex              : 'androidx.multidex:multidex:2.0.0',
+        sdp_android           : "com.intuit.sdp:sdp-android:$versions.sdp_android",
+        facebook_stetho       : "com.facebook.stetho:stetho:$versions.facebook_stetho",
+        okhttp3_stetho        : "com.facebook.stetho:stetho-okhttp3:$versions.facebook_stetho",
+        anko_jetbrains        : "org.jetbrains.anko:anko:$versions.anko_version",
+        anko_commons          : "org.jetbrains.anko:anko-commons:$versions.anko_version",
+        expandablerecyclerview: "com.thoughtbot:expandablerecyclerview:$versions.expandablerecyclerview",
+        smallbang             : "pub.hanks:smallbang:$versions.smallbang",
+        viewpager2            : "androidx.viewpager2:viewpager2:$versions.viewpager2",
+        c_t_layout_substitle  : "com.hendraanggrian.material:collapsingtoolbarlayout-subtitle:$versions.c_t_layout_substitle",
+        autostarter           : "com.github.judemanutd:autostarter:$versions.autostarter",
+        phoneUtils            : "com.googlecode.libphonenumber:libphonenumber:$versions.phoneutil",
+        shimmer               : "com.facebook.shimmer:shimmer:$versions.shimmer",
+        lottie                : "com.airbnb.android:lottie:$versions.lottie",
+        scale_image_view      : "com.davemorrissey.labs:subsampling-scale-image-view-androidx:$versions.scale_image_view"
+]
+
+ext.exo_player = [
+        exoplayer_core  : "com.google.android.exoplayer:exoplayer-core:$versions.exoplayer",
+        exoplayer_dash  : "com.google.android.exoplayer:exoplayer-dash:$versions.exoplayer",
+        exoplayer_ui    : "com.google.android.exoplayer:exoplayer-ui:$versions.exoplayer",
+        MagicalExoPlayer: 'com.github.HamidrezaAmz:MagicalExoPlayer:1.0.15'
+]
+
+ext.daggerdependencies = [
+        dagger        : "com.google.dagger:dagger:$versions.daggerVersion",
+        dagger_android: "com.google.dagger:dagger-android:$versions.daggerVersion",
+        dagger_support: "com.google.dagger:dagger-android-support:$versions.daggerVersion",
+]
+
+ext.androidTestingDependencies = [
+        androidTestRunner: "androidx.test:runner:$versions.androidTestRunner",
+        androidEspresso  : "androidx.test.espresso:espresso-core:$versions.androidEspresso",
+        junit_ext        : "androidx.test.ext:junit:$versions.junit_ext",
+]
+
+ext.testDependencies = [
+        junit: "junit:junit:$versions.junit",
+]
+
+ext.kaptProcessorDep = [
+        glide_compiler  : "com.github.bumptech.glide:compiler:$versions.glide",
+        dagger_compiler : "com.google.dagger:dagger-compiler:$versions.daggerVersion",
+        dagger_processor: "com.google.dagger:dagger-android-processor:$versions.daggerVersion",
+        room_compiler   : "androidx.room:room-compiler:$versions.room",
+        databinding     : "com.android.databinding:compiler:$versions.databinding"
+]
+
+ext.cameraView = [
+        cameraView: "com.otaliastudios:cameraview:2.7.0"
+]
+
+ext.audio = [
+        google_mp4_parser: "com.googlecode.mp4parser:isoparser:1.1.22"
+]
+
+ext.ffmpeg = [
+        ffmpeg: "com.arthenica:mobile-ffmpeg-min-gpl:4.4.LTS"
+]

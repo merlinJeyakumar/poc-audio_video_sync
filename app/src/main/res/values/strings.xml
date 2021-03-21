@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">POC_CameraAudioVideo</string>
+    <string name="db_name">database_main</string>
+</resources>

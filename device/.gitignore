@@ -1,0 +1,11 @@
+/build
+.idea/
+
+
+/local.properties
+
+.idea/workspace.xml
+.idea/libraries
+.idea/codeStyles
+.idea/caches
+.idea/misc.xml
